@@ -5,4 +5,4 @@
 Ја добив групата на код 5
 
 Control Flow Graph
-![](ControlFlowGraph.jpg)
+![](ControlFlowGraph.png)
