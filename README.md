@@ -24,20 +24,33 @@ Every statement критериумот може да се исполни со с
  F	             {0, 0, #, 0, #}	     B – D
 
 if (!list.get(i).equals("#"))
+
 Combination	          Possible test case	          Branch
+
 T	                           {#}	                   E – F
+
 F	                           {0}	                   E – K
+
 if (i - 1 >= 0 && list.get(i - 1).equals("#"))
+
 Combination               	Possible test case	              Branch
+
 TT	                         {0, 0, #, ->0, #}	              F – G
+
 TF                           {0, ->0, #, 0, #}                F – H
+
 FX	                         {->0, 0, #, 0, #}	              F - H
+
 //element so -> se zema
 
 if (i + 1 < list.size() && list.get(i + 1).equals("#"))
+
 Combination                	Possible test case	              Branch
+
 TT	                         {0, 0, #, ->0, #}	                H – I
+
 TF	                         {->0, 0, #, 0, #}	                H – J
+
 FX	                        {0, 0, #, 0, #, ->0}	              H – J
 
 
