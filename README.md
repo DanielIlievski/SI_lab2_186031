@@ -15,10 +15,10 @@
 Every statement критериумот може да се исполни со само два тест случаи, а тоа се празна низа { } и низата {0, 0, #, 0, #}. Првиот тест случај ни го исполнува првиот if услов, кој ќе биде исполнет само доколку низата е празна. Со вториот случај пак, може да се изминат сите останати statement-и.
 
 # Тест случаи според критериумот Multiple condition statement
-if (list.size() <= 0)
-Combination	  Possible test case	   Branch
-T	                   {}            B – C
-F	             {0, 0, #, 0, #}	     B – D
+ if (list.size() <= 0)
+ Combination	  Possible test case	   Branch
+ T	                   {}            B – C
+ F	             {0, 0, #, 0, #}	     B – D
 
 if (!list.get(i).equals("#"))
 Combination	          Possible test case	          Branch
