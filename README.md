@@ -16,8 +16,11 @@ Every statement критериумот може да се исполни со с
 
 # Тест случаи според критериумот Multiple condition statement
  if (list.size() <= 0)
+ 
  Combination	  Possible test case	   Branch
+ 
  T	                   {}            B – C
+ 
  F	             {0, 0, #, 0, #}	     B – D
 
 if (!list.get(i).equals("#"))
